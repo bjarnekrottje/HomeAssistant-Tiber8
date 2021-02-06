@@ -1,0 +1,178 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.bjarne_krottje",
+                "state": "home",
+                "attributes": {
+                    "editable": true,
+                    "id": "bjarne_krottje",
+                    "latitude": 50.9137833,
+                    "longitude": 5.8858616,
+                    "gps_accuracy": 13,
+                    "source": "device_tracker.op8_bjarne",
+                    "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                    "friendly_name": "Bjarne Krottje"
+                },
+                "last_changed": "2021-02-06T18:04:49.809534+00:00",
+                "last_updated": "2021-02-06T18:05:01.319776+00:00",
+                "context": {
+                    "id": "9f76ea0e4469c3bf8522fb33ab32c1b4",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-06T18:20:01.317456+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.warn_if_lights_are_disconnected",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-02-06T17:49:35.045082+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1612554180686",
+                    "friendly_name": "Warn if lights are disconnected"
+                },
+                "last_changed": "2021-02-06T18:04:54.073737+00:00",
+                "last_updated": "2021-02-06T18:04:54.073737+00:00",
+                "context": {
+                    "id": "0b20188ff2cf70525ab2df5beaf514bf",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-06T18:20:01.317456+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.trash_outside",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2021-02-06T13:38:12.913002+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1612618696406",
+                    "friendly_name": "Trash outside"
+                },
+                "last_changed": "2021-02-06T18:04:54.074241+00:00",
+                "last_updated": "2021-02-06T18:04:54.074241+00:00",
+                "context": {
+                    "id": "9220745d63d7e1aa670eacfe504f7ee0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-06T18:20:01.317456+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.op8_bjarne",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 50.9137833,
+                    "longitude": 5.8858616,
+                    "gps_accuracy": 13,
+                    "altitude": 135.0,
+                    "course": 236,
+                    "speed": 0,
+                    "vertical_accuracy": 1,
+                    "friendly_name": "OP8-Bjarne"
+                },
+                "last_changed": "2021-02-06T18:15:19.930405+00:00",
+                "last_updated": "2021-02-06T18:15:19.930405+00:00",
+                "context": {
+                    "id": "de3bf1726bbfb1c1c85e24579d789852",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-06T18:20:01.317456+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.voordeurscherm",
+                "state": "unknown",
+                "attributes": {
+                    "source_type": "gps",
+                    "friendly_name": "Voordeurscherm"
+                },
+                "last_changed": "2021-02-06T18:04:55.134619+00:00",
+                "last_updated": "2021-02-06T18:04:55.134619+00:00",
+                "context": {
+                    "id": "6ce239bbe6c58b4b8223279c865d5d86",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-06T18:20:01.317456+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.voordeur",
+                "state": "on",
+                "attributes": {
+                    "power": "2.99",
+                    "switch": "74:ac:b9:51:4b:b7",
+                    "port": 7,
+                    "poe_mode": "auto",
+                    "friendly_name": "Voordeur"
+                },
+                "last_changed": "2021-02-06T18:04:58.171780+00:00",
+                "last_updated": "2021-02-06T18:19:08.806264+00:00",
+                "context": {
+                    "id": "51f9c05db66542f36339cba9030fd346",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-06T18:20:01.317456+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.unifi_poe_14_59_c0_54_91_c8",
+                "state": "on",
+                "attributes": {
+                    "power": "4.18",
+                    "switch": "74:ac:b9:51:4b:b7",
+                    "port": 5,
+                    "poe_mode": "auto",
+                    "friendly_name": ""
+                },
+                "last_changed": "2021-02-06T18:04:58.172520+00:00",
+                "last_updated": "2021-02-06T18:04:58.172520+00:00",
+                "context": {
+                    "id": "406d45ad3bbe9f085207f32814bf23c3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-06T18:20:01.317456+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "switch.dell_bjarne",
+                "state": "on",
+                "attributes": {
+                    "power": "4.18",
+                    "switch": "74:ac:b9:51:4b:b7",
+                    "port": 5,
+                    "poe_mode": "auto",
+                    "friendly_name": "Dell-Bjarne"
+                },
+                "last_changed": "2021-02-06T18:04:58.173142+00:00",
+                "last_updated": "2021-02-06T18:04:58.173142+00:00",
+                "context": {
+                    "id": "0be4c5c9a60b89fe7df2e9f7d560ef6c",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2021-02-06T18:20:01.317456+00:00"
+        }
+    ]
+}

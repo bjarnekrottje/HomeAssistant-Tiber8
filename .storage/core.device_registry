@@ -1,0 +1,2118 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "43884f0728a351fad3c20c46355f7d86"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "bdb650db30e21a64f0f477cfe053ddd4",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "4251168dc1a472b97af3291ea3ce1a06"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "0289e855d314eaaf3ec45c7cb20632fa"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "Monitor B",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "7d741460c46945e508c3b220c43d53e1",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "4251168dc1a472b97af3291ea3ce1a06"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "854c5864c18aee0dd581fd27881c851e"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "TV B",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c0092f8c7615913df9b5edcdb6cb27e5",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "4251168dc1a472b97af3291ea3ce1a06"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "5698779ad0eda18ee2c1cc845dc50680"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Nest Hub",
+                "name": "Gertrude",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "be5660d5c6099b549e9e4516afa5321c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "4251168dc1a472b97af3291ea3ce1a06"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "32bb9480e235d402e5a12db66ada1e10"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Nest Hub",
+                "name": "Hub B",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "9462f307ad7bc45d12d19d299c2df437",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "4251168dc1a472b97af3291ea3ce1a06"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "84a32fb86278b9b595b541d8f51a9d71"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "TV Lieke",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "02e19717f51da85687c84136a4f47764",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "4251168dc1a472b97af3291ea3ce1a06"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "7eafa6c45989f1996a0eccdd45be442f"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Home-Woonkamer",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "cca306005c4a67f42aedc493231f54cc",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "4251168dc1a472b97af3291ea3ce1a06"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "cf06d25d3070461d29c53142152ae561"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Home B",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "606d0d64737e72525a2b5c8cc4f08eca",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "4251168dc1a472b97af3291ea3ce1a06"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "cast",
+                        "1ee424f2eaf5650deabec96c354a7e5a"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "Woonkamer",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "d81213d93b3da3c979f3bd60c912c559",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "89ff6ab310e30df998f43859549a8922"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "ipp",
+                        "1c852a4d-b800-1f08-abcd-c8d3ff1b7e0f"
+                    ]
+                ],
+                "manufacturer": "HP",
+                "model": "ENVY 5540 series",
+                "name": "HP ENVY 5540 series",
+                "sw_version": "NBP1CN2023AR",
+                "entry_type": null,
+                "id": "5ca091e68913683f53ecf050aaeae9d0",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e",
+                    "0af53391bb95a94e53bec1e2f85bdb2b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "5c:aa:fd:c1:9c:ca"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFDC19CCA01400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Play:1",
+                "name": "Terras",
+                "sw_version": "61.1-83220",
+                "entry_type": null,
+                "id": "d6fd7281b921606a79af0c6491cdbfc5",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e",
+                    "0af53391bb95a94e53bec1e2f85bdb2b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b8:e9:37:50:a0:62"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_B8E93750A06201400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Play:1",
+                "name": "Bjarne",
+                "sw_version": "61.1-83220",
+                "entry_type": null,
+                "id": "e79170b1e73dec68a67309f6756dd140",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e",
+                    "0af53391bb95a94e53bec1e2f85bdb2b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "94:9f:3e:60:ad:01"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_949F3E60AD0101400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Playbar",
+                "name": "Woonkamer",
+                "sw_version": "61.1-83220",
+                "entry_type": null,
+                "id": "8707167bd69120064e7a3803c60659ee",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e",
+                    "0af53391bb95a94e53bec1e2f85bdb2b"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "48:a6:b8:e4:9c:98"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_48A6B8E49C9801400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Move",
+                "name": "MOVE",
+                "sw_version": "61.1-85090",
+                "entry_type": null,
+                "id": "f4ba2de052b0c0343bde25f5cb3fbf1e",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "56534cc216e42e1c94e94ea048014d4e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "004e777a6733a633"
+                    ]
+                ],
+                "manufacturer": "OnePlus",
+                "model": "IN2023",
+                "name": "OP8-Bjarne",
+                "sw_version": "30",
+                "entry_type": null,
+                "id": "e467d987ca042440cc5fb50a2e245da5",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "f0806556a0a192e766664233b57aaa96"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.10.1",
+                "entry_type": "service",
+                "id": "d38b1d20fec25698d764f02e370f600a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "780639710116e58ccf6b163652490069",
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "74:83:c2:73:e2:01"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "unifiprotect",
+                        "7483C273E201"
+                    ]
+                ],
+                "manufacturer": "Ubiquiti",
+                "model": "UCK-G2-PLUS",
+                "name": "Familie Krottj\u00e9",
+                "sw_version": "1.17.2",
+                "entry_type": null,
+                "id": "781456f910fa96588801ec9bed87cd9c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "780639710116e58ccf6b163652490069",
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "e0:63:da:00:42:73"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Ubiquiti",
+                "model": "UVC G4 Bullet",
+                "name": "Tuinhuisje",
+                "sw_version": "4.34.12",
+                "entry_type": null,
+                "id": "ccac0be618808fb7747bb419dcccdb5e",
+                "via_device_id": "781456f910fa96588801ec9bed87cd9c",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "780639710116e58ccf6b163652490069",
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "e0:63:da:00:41:94"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Ubiquiti",
+                "model": "UVC G4 Bullet",
+                "name": "Voordeur",
+                "sw_version": "4.34.12",
+                "entry_type": null,
+                "id": "e8bf6d411d583647813acb4c197bf6cc",
+                "via_device_id": "781456f910fa96588801ec9bed87cd9c",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e",
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:17:88:a6:00:f2"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "hue",
+                        "001788FFFEA600F2"
+                    ]
+                ],
+                "manufacturer": "Signify",
+                "model": "BSB002",
+                "name": "Tiber 8",
+                "sw_version": "1942135050",
+                "entry_type": null,
+                "id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:90:39:85-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance candle",
+                "name": "Bureau Bjarne",
+                "sw_version": "1.50.2_r30933",
+                "entry_type": null,
+                "id": "7a4572c34a9d053a23570a4c00d810f9",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": "kamer_bjarne",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:90:42:26-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance candle",
+                "name": "Vitrine Bjarne",
+                "sw_version": "1.50.2_r30933",
+                "entry_type": null,
+                "id": "cefef2bda3a65edc98f07881194b1777",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": "kamer_bjarne",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:f1:ef:f5-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance candle",
+                "name": "Bureau Lieke",
+                "sw_version": "1.50.2_r30933",
+                "entry_type": null,
+                "id": "5f61c084e7ed3a576d5ea5b0f2e1251e",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:03:7e:74:c6-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color candle",
+                "name": "Bed Bjarne",
+                "sw_version": "1.50.2_r30933",
+                "entry_type": null,
+                "id": "01b86303cb905506e4bf29f4ab859aa9",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": "kamer_bjarne",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:90:3a:3c-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance candle",
+                "name": "Bed Lieke",
+                "sw_version": "1.50.2_r30933",
+                "entry_type": null,
+                "id": "9cfb8fb9ee64ec856da81add4fbd7130",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:03:f9:46:b3-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color candle",
+                "name": "Deur Lieke",
+                "sw_version": "1.50.2_r30933",
+                "entry_type": null,
+                "id": "3f4dcb51b390002d294bbd0c47005567",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:03:64:49:41-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance ceiling",
+                "name": "Eettafel",
+                "sw_version": "1.50.2_r30933",
+                "entry_type": null,
+                "id": "4d64eb12e93286e6e138b01e388faa16",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:03:64:79:af-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance ceiling",
+                "name": "Slaapkamer pat en nat",
+                "sw_version": "1.50.2_r30933",
+                "entry_type": null,
+                "id": "506cc4d48ffa131d9bd634c2c8e47be0",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:4e:eb:39-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance spot",
+                "name": "Loungeset 2",
+                "sw_version": "1.76.6",
+                "entry_type": null,
+                "id": "f3e1e93abf67e02b9d310bfef0c64515",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:52:61:91-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance spot",
+                "name": "Loungeset 1",
+                "sw_version": "1.76.6",
+                "entry_type": null,
+                "id": "7eb6ed6f80dc1d68d0902505279ce137",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:4e:ea:fb-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance spot",
+                "name": "Tafel 2",
+                "sw_version": "1.76.6",
+                "entry_type": null,
+                "id": "b867c8c8eda39b531465c1d415203479",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:46:61:c2-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance spot",
+                "name": "Tafel 1",
+                "sw_version": "1.76.6",
+                "entry_type": null,
+                "id": "862b8495e114a53f86741563940724ff",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:4e:eb:3b-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance spot",
+                "name": "Deur 2",
+                "sw_version": "1.76.6",
+                "entry_type": null,
+                "id": "6a1b639415b127d3f81a537768b7ea01",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:06:2d:77:07-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp",
+                "name": "Lamp 1",
+                "sw_version": "1.76.10",
+                "entry_type": null,
+                "id": "17b5012575717e35333c0ede240ad7d3",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:06:4d:93:a5-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue color lamp",
+                "name": "Lamp 2",
+                "sw_version": "1.76.10",
+                "entry_type": null,
+                "id": "da0f65b825d1dceced4d4ea038bd26a6",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:45:e6:ea-0b"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue ambiance spot",
+                "name": "Deur 1",
+                "sw_version": "1.76.6",
+                "entry_type": null,
+                "id": "4c6b668b1205eaa233ca03c37777b174",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:03:a4:f5:be"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue dimmer switch",
+                "name": "Lieke schakelaar",
+                "sw_version": "5.45.1.17846",
+                "entry_type": null,
+                "id": "0478c17812030c702929c71b3880fdad",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:03:ca:72:5d"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue dimmer switch",
+                "name": "Bjarne schakelaar",
+                "sw_version": "6.1.1.28573",
+                "entry_type": null,
+                "id": "fd742275301937e49bcb157b44256e0e",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": "kamer_bjarne",
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:c2:99:c5"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue dimmer switch",
+                "name": "Woonkamer schakelaar",
+                "sw_version": "6.1.1.28573",
+                "entry_type": null,
+                "id": "4c342eca5052b2a635ba781a165e1c9b",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:02:c2:07:5d"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue dimmer switch",
+                "name": "Pat en Nat schakelaar",
+                "sw_version": "6.1.1.28573",
+                "entry_type": null,
+                "id": "78987de9f57117d1b719070d3cdb1613",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c7d0b9f53f322d33ee27812aa2dbd0ef"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hue",
+                        "00:17:88:01:08:08:ac:ba"
+                    ]
+                ],
+                "manufacturer": "Signify Netherlands B.V.",
+                "model": "Hue dimmer switch",
+                "name": "Overkapping schakelaar",
+                "sw_version": "6.1.1.28573",
+                "entry_type": null,
+                "id": "33b1a4572896e0f6083141e874bd4683",
+                "via_device_id": "bc64ce10d9fea9ed86fd779cfdf33deb",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b8:e9:37:50:97:64"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Sonos",
+                "model": null,
+                "name": "SonosZP",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "cfb96372707a48e55d681fb740b8225a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ca:ef:42:bf:90:47"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "",
+                "model": null,
+                "name": "OnePlus7T",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "01fbaf0cb7af52225fb6756cc5f87c75",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "a8:23:fe:8c:f4:a6"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "LgElectr",
+                "model": null,
+                "name": "LGwebOSTV",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "7c178a7393d8f1f076da9cceaf809188",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "7c:2e:bd:dd:44:23"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Google",
+                "model": null,
+                "name": "Chromecast",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "59b869507917e9f42c5ab0715d2c1cdc",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "02:11:32:2b:04:c3"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "",
+                "model": null,
+                "name": "Tiber8NASVPN",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "bdecb9c113fd95728a85259e3927e133",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b2:7b:1a:97:97:03"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "",
+                "model": null,
+                "name": "OnePlus6",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "0ba737cd50b1fc6b0a67bba36a9a843a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "14:c1:4e:56:a3:fa"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "",
+                "model": null,
+                "name": "Google-Nest-Hub",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "3e9988c190ba87cd0378ae51d106d48a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "3c:8d:20:16:d8:ae"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Google",
+                "model": null,
+                "name": "Chromecast",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "67e6e35f42c403a8ab91b458abfe791d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "68:a4:0e:15:04:10"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "BshHausg",
+                "model": null,
+                "name": "Bosch Vaatwasser",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "2343cbbdad36cfde6985e0cbdf6b4088",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:11:32:6a:07:61"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Synology",
+                "model": null,
+                "name": "Tiber8NAS",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c2e143f5e7ebfd6dee60f23f22fe5d66",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "d4:9a:20:5a:b8:80"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Apple",
+                "model": null,
+                "name": "iMac-van-Bjarne",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "8ab036af21f3bb454c7cd949d0d34ed3",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "a2:6a:28:69:90:6c"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "",
+                "model": null,
+                "name": "iPad",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "a964de9f60880cd095b2088c38dbefab",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c8:d3:ff:1b:7e:0f"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "HewlettP",
+                "model": null,
+                "name": "Tiber8HP",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "4369d07ebc2bb378c284b62576093033",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ea:73:2e:ed:a5:13"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "",
+                "model": null,
+                "name": "iPadvanPatrick",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "e5edf6607bcf505371799fc5e7d473c2",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "cc:f9:e4:9d:04:db"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "",
+                "model": null,
+                "name": "Dell-Bjarne",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "3cc35d236aa2d1749d6b4611c274d81d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "22:ba:8d:e4:85:a0"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "",
+                "model": null,
+                "name": "OnePlus 8 Pro - Bjarne",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "88316c6cc0be340d41c0fce87393baab",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:06:66:3b:55:61"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "RovingNe",
+                "model": null,
+                "name": "HomeWizard",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b6e25d3f5d4caf0d83a7b64a947722df",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:e0:4c:9c:00:90"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "RealtekS",
+                "model": null,
+                "name": "Tablet Voordeur",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "932c3a651cdff7d431a833c9fccf754d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c4:9d:ed:de:f2:c7"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Microsof",
+                "model": null,
+                "name": "XBOXONETIBER8",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b0c2660d1f023b3a94abf498ddf7eb56",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "96:71:18:b1:59:66"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "",
+                "model": null,
+                "name": "iPad-van-L",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "9bef3678c6d90ef767f755338bef977a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b8:e9:37:50:97:4c"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Sonos",
+                "model": null,
+                "name": "SonosZP",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "783786c26b98c2b6ebe0304050bdded8",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b8:e9:37:50:81:84"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Sonos",
+                "model": null,
+                "name": "SonosZP",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "27d60b0998fe7068b338e3741f316ed8",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "14:c1:4e:2d:d9:a5"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "",
+                "model": null,
+                "name": "Google-Nest-Hub",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "aea36ad3435e31df1e149400269b7194",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "54:60:09:59:41:60"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Google",
+                "model": null,
+                "name": "Chromecast",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "3c1be0a8f7b0d53b85d057f5bfc97315",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "a4:77:33:94:09:8e"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Google",
+                "model": null,
+                "name": "Chromecast",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "f81a33b7b660b207bc7383bb5c3a62cd",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "20:df:b9:a1:01:10"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Google",
+                "model": null,
+                "name": "Google-Home-Mini",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c4927899ee95be617919b3286d7a322e",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "3c:8d:20:5e:f4:f0"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Google",
+                "model": null,
+                "name": "Google-Home-Mini",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "02f5815a677542d0e302ee725f1f4b5d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "5c:a3:9d:0f:5a:95"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "SamsungE",
+                "model": null,
+                "name": "",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "86832330747c1ee92c5a0700d43b6862",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c4:b3:01:9e:15:06"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Apple",
+                "model": null,
+                "name": "Air-van-Bjarne",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "d61982d893c10f01e2511dc56d4d3b56",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "74:ac:b9:51:4b:b7"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Ubiquiti Networks",
+                "model": "US8P60",
+                "name": "Switch Meterkast",
+                "sw_version": "5.43.23.12533",
+                "entry_type": null,
+                "id": "d873d5eeee27c8ac6ae3308f0a4b393b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "74:ac:b9:47:50:f1"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Ubiquiti Networks",
+                "model": "UGW3",
+                "name": "USG",
+                "sw_version": "4.4.52.5363511",
+                "entry_type": null,
+                "id": "7683e2379c430f7b04f1ceb997a391be",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "74:ac:b9:20:59:15"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Ubiquiti Networks",
+                "model": "U7PG2",
+                "name": "UAP-AC-PRO Begane Grond",
+                "sw_version": "4.3.24.11355",
+                "entry_type": null,
+                "id": "3663bbe280a4fdff9ac045d99abac12b",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "74:ac:b9:20:59:06"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Ubiquiti Networks",
+                "model": "U7PG2",
+                "name": "UAP-AC-PRO 1e Etage",
+                "sw_version": "4.3.24.11355",
+                "entry_type": null,
+                "id": "f163c80523ba39c977af2a38d29f7eb3",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "fb345efddc10bdc168a5adf80c01958e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "57dc7a7cfcf407379052e82d0ff0ed03cc7f6d8c"
+                    ]
+                ],
+                "manufacturer": "Plex",
+                "model": "Plex Media Server",
+                "name": "Activity Sensor",
+                "sw_version": "1.21.2.3997-cb530f3ab",
+                "entry_type": null,
+                "id": "2771d90e26f259a79b61c87259cd350e",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "fb345efddc10bdc168a5adf80c01958e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "64e45c39ee32370f-com-plexapp-android"
+                    ]
+                ],
+                "manufacturer": "Plex",
+                "model": "Plex for Android (Mobile)",
+                "name": "Plex (Plex for Android (Mobile) - OnePlus 6)",
+                "sw_version": "8.12.3.22809",
+                "entry_type": null,
+                "id": "bec770bee5316cd916f0e6f2dabfb91b",
+                "via_device_id": "2771d90e26f259a79b61c87259cd350e",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "fb345efddc10bdc168a5adf80c01958e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "8eiz71ldz378xtobssjqyl9c"
+                    ]
+                ],
+                "manufacturer": "Plex",
+                "model": "Plex Web",
+                "name": "Plex (Plex Web - Microsoft Edge)",
+                "sw_version": "4.51.1",
+                "entry_type": null,
+                "id": "af43502788b177023cdc00d8a818d17e",
+                "via_device_id": "2771d90e26f259a79b61c87259cd350e",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "3c:f0:11:9b:d0:ed"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "IntelCor",
+                "model": null,
+                "name": "Boston Natascha",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "91cb3a2211525cac0baa96c4e58af1c9",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "14:59:c0:54:91:c8"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "Netgear",
+                "model": null,
+                "name": "",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "3ab1856462b44fec6aab05e8e90174a5",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:e0:4c:c2:e0:89"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "RealtekS",
+                "model": null,
+                "name": "",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "8a3035c77fd52c8e36dc28a604ec6693",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "71c613b534e8f11fbccac5af4db156a8"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "fd39a44603b701e8"
+                    ]
+                ],
+                "manufacturer": "Harmony",
+                "model": "TAQ_703A",
+                "name": "Voordeurscherm",
+                "sw_version": "29",
+                "entry_type": null,
+                "id": "5091666c5248a7506424272aaca52bab",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "e4:b3:18:e3:d0:d7"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "IntelCor",
+                "model": null,
+                "name": "R90L20JM_IL",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "0742bfaf2fe83139639ce14acf6c9917",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c0:ee:fb:f4:75:ba"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "OneplusT",
+                "model": null,
+                "name": "MariaJanssen",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c5e076ec30e7adcece1daf9e14f3ab99",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "06d32097581c622e7d3990db7105ae87"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "spotify",
+                        "1158434432"
+                    ]
+                ],
+                "manufacturer": "Spotify AB",
+                "model": "Spotify premium",
+                "name": "Spotify Bjarne Krottj\u00e9",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "b11771827a82dd8d33873d703fcd7209",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "fb345efddc10bdc168a5adf80c01958e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "6egg46yhnlrrw2kwbwgbjr5x"
+                    ]
+                ],
+                "manufacturer": "Plex",
+                "model": "Plex for Windows",
+                "name": "Plex (Plex for Windows - Dell-Bjarne)",
+                "sw_version": "1.27.2.1599-7689068b",
+                "entry_type": null,
+                "id": "81102c3b066ab92117fbb7d39bbb247c",
+                "via_device_id": "2771d90e26f259a79b61c87259cd350e",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "fb345efddc10bdc168a5adf80c01958e"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "f5cf1f7c67e071c0-com-plexapp-android"
+                    ]
+                ],
+                "manufacturer": "Plex",
+                "model": "Plex for Android (Mobile)",
+                "name": "Plex (Plex for Android (Mobile) - HD1903)",
+                "sw_version": "8.11.0.22186",
+                "entry_type": null,
+                "id": "aa7f11d10f35d00ad24693d42e87a88c",
+                "via_device_id": "2771d90e26f259a79b61c87259cd350e",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "d8:0f:99:0a:cd:c5"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "HonHaiPr",
+                "model": null,
+                "name": "DESKTOP-415SDSJ",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "8b46c06b8c6a7b33b7ba6d708eb88c08",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:00:00:00:00:01"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "00:00:00",
+                "model": null,
+                "name": "",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "ba2a3097cdb0ead31a75c5631bfe498c",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "74:eb:80:eb:cf:22"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "SamsungE",
+                "model": null,
+                "name": "Galaxy-A8-2018",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "109d85d8b98ff75faa01a297b7f7f480",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "9c7dd977ea3878e1e6b1d1c5333ce23e"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "c0:3e:ba:d4:90:4b"
+                    ]
+                ],
+                "identifiers": [],
+                "manufacturer": "",
+                "model": null,
+                "name": "Dell-Bjarne",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "41cbcba5e640284f0eed741ca996adc2",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "83cab47a20252f15a10a865a9be40a78"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "samsungtv",
+                        "0db58580-00e6-1000-b11e-f47b5e347127"
+                    ]
+                ],
+                "manufacturer": "Samsung Electronics",
+                "model": "UE46ES8000",
+                "name": "Samsung UE46ES8000",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c9ccdb0495d81ec857010bbb86bd61e1",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "ced59452a1d8e25a2b10af3f45b488f0"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "xbox",
+                        "xbox_live"
+                    ]
+                ],
+                "manufacturer": "Microsoft",
+                "model": "Xbox Live",
+                "name": "Xbox Live",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "a6aed6f30b8a77c9be02d5bebb2974cd",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [
+                    "077c4cad758c0ae4d25bd362b54f6e49"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "V0GGKUPI8UBMJ"
+                    ]
+                ],
+                "id": "bf8b06025c9253c6a0d5355fcafb9d5c",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [
+                    "077c4cad758c0ae4d25bd362b54f6e49"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "synology_dsm",
+                        "V0GGKUPI8UBMJ",
+                        "volume_1"
+                    ]
+                ],
+                "id": "4e3f02d5aad323ebfb7597489e2164b5",
+                "orphaned_timestamp": null
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "d1:10:0b:38:29:6b"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "e77c8e6002f7a0e902ff31e4d2a3a06d",
+                        "homekit.bridge"
+                    ]
+                ],
+                "id": "2228a884e95f65c7c936301c93916ec7",
+                "orphaned_timestamp": 1612541272.7245183
+            }
+        ]
+    }
+}

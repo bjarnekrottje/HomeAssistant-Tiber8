@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Bjarne Krottje",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "device_trackers": [
+                    "device_tracker.op8_bjarne"
+                ],
+                "id": "bjarne_krottje"
+            }
+        ]
+    }
+}

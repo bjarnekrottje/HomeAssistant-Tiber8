@@ -1,0 +1,322 @@
+{
+    "version": 1,
+    "key": "auth",
+    "data": {
+        "users": [
+            {
+                "id": "e3d189aafeb5444f9fb0bbc7cdf49e54",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "id": "4daf3936aca94868aa9695568a2ec7ae",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": true,
+                "is_active": true,
+                "name": "Bjarne Krottje",
+                "system_generated": false
+            },
+            {
+                "id": "eb5433cf30b2482883f88d4e6f713b5d",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Home Assistant Cast",
+                "system_generated": true
+            },
+            {
+                "id": "2d78ff08a42e4e188df8aca0b20df3c0",
+                "group_ids": [
+                    "system-users"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Scherm Voordeur",
+                "system_generated": false
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "credentials": [
+            {
+                "id": "b8d476166916426fa82f4f18f3ac4aab",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "bjarne"
+                }
+            },
+            {
+                "id": "d600348c60c44a3d803b06c231ce8e46",
+                "user_id": "2d78ff08a42e4e188df8aca0b20df3c0",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "voordeurscherm"
+                }
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "id": "4a051442bff34b798af7057f83b696ea",
+                "user_id": "e3d189aafeb5444f9fb0bbc7cdf49e54",
+                "client_id": null,
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "system",
+                "created_at": "2021-02-04T21:55:07.203482+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "d5419f330480bc2c800fa4484920bf8be9e08b5f9822a794fdafe1fd3e165dce77ac01778381136eb236e0b5a5bb1580f52a04f0bb6f7525e25a9d632088ea05",
+                "jwt_key": "ae5e4f6ae6a89cd57ac59a06940a6c60907e18f3b2ae1d9aab41799cedfe4d344aefdd72fb79b507ac606287606a16972fe67b8ab3c99f882989523913ec9766",
+                "last_used_at": "2021-02-06T17:52:36.244785+00:00",
+                "last_used_ip": "172.30.32.2"
+            },
+            {
+                "id": "7028b97c6c8f45eda24f8d598a9f21f9",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "client_id": "http://192.168.1.35:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-04T21:57:07.723996+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "fc9ffe225d40441d2fa1f0ff46667c24f479d6ee76a619b3ff246150783e98fbac5f3dc3d31798798247360468736c6a04387c359a6d8068571122bac3c841b7",
+                "jwt_key": "1f36ede774632da0edc6c18337e9e07b7da9dfe6b1c0034d8e1b640e1729d5c71aab9bb72a1c7552b6281ff76a20e4b8b74008fd19bf952c93190216f1b394ab",
+                "last_used_at": "2021-02-06T17:52:21.370110+00:00",
+                "last_used_ip": "192.168.1.169"
+            },
+            {
+                "id": "fa068a7e614a4d9e999b9c6a537cd2d6",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "client_id": "https://home-assistant.io/android",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-04T22:18:05.264253+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "1131179f6155603e7642918d6a0952f0f3b0a385340f8538077a9ab1c3ebe6183fecf80abe574622efb7e4c42ad1b8976c32b1c8f76b4e1398ecc717fe1c3921",
+                "jwt_key": "7344bde7a2aeb474a2e54b0058f7ec496465261c570b9aff81ba773f36171429112fd7cd51adb860280876debffc4b513476db5135d127185409de8e27ee51c9",
+                "last_used_at": "2021-02-06T17:44:17.228233+00:00",
+                "last_used_ip": "192.168.1.30"
+            },
+            {
+                "id": "de4b5209c5384db59483d2a9b68140b3",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "client_id": "http://192.168.1.35:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-04T22:33:26.373964+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "69d6e5153d99fdba7e791eeac62503f3b7cf462ee6bd326de077c5738448fe430ca7f94f27fbf96c749b81eb2a4c6a592100db3735335f37ab13a18f4cfb86ce",
+                "jwt_key": "7f4e7c0f80b3946f0d4d4b28ffe550517c9eb847db19423ca9a39cab064ce7c19d0281c198d68ffb98c3ef706e5d01e64d0159b927469616cef021c466f5f385",
+                "last_used_at": "2021-02-04T22:33:26.374333+00:00",
+                "last_used_ip": "192.168.1.169"
+            },
+            {
+                "id": "dd4b28d06aa64ec8903e7ff5731f0cc8",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "client_id": "http://192.168.1.35:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-04T22:55:50.598387+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "8a274cb519fe8c9f5d23474d5e1985c84c3a2e5bb360689288de91f849379dba8a393afe76721e412ec3defc62473de8ffbe9094c0e38e5351c487208ccefafa",
+                "jwt_key": "9797b4b91c834dd994dfa31c997b7cac50cfec0353abc0706d7593b54a4c6d54d4ef36b7e06f81eb98ca88ba0e921d385e98f92c9fe4202fae252c236f88cbb6",
+                "last_used_at": "2021-02-04T23:29:31.775474+00:00",
+                "last_used_ip": "192.168.1.169"
+            },
+            {
+                "id": "e50906ea44074e6d83b22cf5d2b4475f",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "client_id": "https://ha.nas.krottje.eu/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-05T15:23:04.530607+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "7600de43c6695dd599e19e0b5920dbd09ec58d19dc22a15bbfa27693a7690dde2fdcbbf66d51b7784f3d8a495c0a70dae7f9f1b3b8767690e7244ed3a050fc06",
+                "jwt_key": "a46dbc42db4853ff34528776fa2003c710865f59e77cf12ef79732c2192116bf3b8299623708a141f84560bca5156fcfb826b9dd22a42019286b6a29efb12028",
+                "last_used_at": "2021-02-05T15:23:04.530985+00:00",
+                "last_used_ip": "127.0.0.1"
+            },
+            {
+                "id": "11a6a4abd0134e37b51a6990e657f0f6",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "client_id": "https://ha.nas.krottje.eu/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-05T15:25:08.340621+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "33825c960103ba5de59d88d2e1e381747a28281e9581c7c0c26e88ce7518dcde63be72407d14e078473d5f4d3ad7e4a03df32cb63097cb0af333e5785681df63",
+                "jwt_key": "633e144d736893ff7bd15f849fbdc524558e3934949bf1324bffb00a207f2a499fe5bf121dd98e59ec58f2685254cbe0711cca402d684a32b849c40b83b432b8",
+                "last_used_at": "2021-02-05T15:25:08.340995+00:00",
+                "last_used_ip": "127.0.0.1"
+            },
+            {
+                "id": "a81d944cc4ed4563be4279f2e2774938",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "client_id": "https://ha.nas.krottje.eu/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-05T15:27:06.254164+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "61feaa581d31df2a5a1821b6100e2ec523d568216f0b5fea5ef66a0b46e447a2448278a9cc214f4a3a71b004d528083c92380fe33f87e5760c73b3e1cbe54612",
+                "jwt_key": "2bdba8644a6fea3b8a8f30d4a8c2b46fc9286dd96d1fd082c4e12bc294c5b3b68b3c9f2060547d41da788e7b62193be0851072e50848611cc1027e2f5a0ad697",
+                "last_used_at": "2021-02-05T15:27:06.254554+00:00",
+                "last_used_ip": "127.0.0.1"
+            },
+            {
+                "id": "dddd7668a0944c93b9ced4428f4770ff",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "client_id": "https://ha.nas.krottje.eu/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-05T15:48:40.352344+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "7162bc1fb5424642535143ae879b78fc5dc377704d6fef7e7bf726ff69d679fd36aa7331c03badfdbdfce40c3896be08d362000b56b65a2542739f268f17c3c4",
+                "jwt_key": "ad7452484cc7114a84914406e2a1c75f303d062463eee5ee41858efcf8ad4d517e72b047869ed05df9454fd89ef68719e3aaaaf86355bafe9cb7ee5537e6f639",
+                "last_used_at": "2021-02-05T15:48:40.352689+00:00",
+                "last_used_ip": "127.0.0.1"
+            },
+            {
+                "id": "ee65af1d3fa04d39ac3ee58d679feb36",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "client_id": "https://ha.nas.krottje.eu/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-05T18:01:18.216859+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "83eb5de998187b431f5ae0acf6281e1aa8e9a773e570d1bbeb021517ef17b0467aeba64f2165d6dac9474d027942f27ea9faa7e098ebf4eed5fa991004159ef4",
+                "jwt_key": "e0afa57312d85f6bdefa1e61c181ae0bb4b7fa5fb18819fc0e02ae0324bd167e74177a84f0639b5e788d0229a178a57b7036a411df581cccccd2dd4a8a447ff1",
+                "last_used_at": "2021-02-06T16:47:58.224431+00:00",
+                "last_used_ip": "127.0.0.1"
+            },
+            {
+                "id": "b90a4baf340040dd84ad50996e545e5d",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "client_id": "https://ha.nas.krottje.eu/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-06T16:50:46.259905+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "e6a7ff3a9ff4e8aab106ed53176d939ebb00f11bf43df54ba89bc76b2a56529d707e0e61ac3a1bbd62e62de8855c37e896103de2f3256c5eb5540615deb4906f",
+                "jwt_key": "97f1e0e570b8c58004dc35c7158036cf2ba04dbc37502af3499747e1fecab5b2249fe3da9a3cbe70f7bab39800b2c8ebbb0df21a4d758e0973eae1f406e0522f",
+                "last_used_at": "2021-02-06T16:50:46.260273+00:00",
+                "last_used_ip": "127.0.0.1"
+            },
+            {
+                "id": "096b2ac98b8c4762ac4cac0cadb29367",
+                "user_id": "4daf3936aca94868aa9695568a2ec7ae",
+                "client_id": "http://192.168.1.35:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-06T17:07:49.382535+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "a1cb824b2ba7b96f156e69ca38cca04ed30302c0e7bfe3bc7acb9f36b77e73b00f3467ff84bdab1f3919fb729ba5e017deb1a0779a70139c02bee7b1580090cc",
+                "jwt_key": "313a4c1ba89a6dd06af6ba37294f8ae147c534e01982ce343958cba1e26d190d066baaca8d98632d44fa80e42f68a5d53691ca7d600199b4557cc25f5ed00714",
+                "last_used_at": "2021-02-06T17:07:49.382912+00:00",
+                "last_used_ip": "192.168.40.6"
+            },
+            {
+                "id": "b773038c692748b09298a9dc82dbe02b",
+                "user_id": "eb5433cf30b2482883f88d4e6f713b5d",
+                "client_id": null,
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "system",
+                "created_at": "2021-02-04T21:59:04.261164+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "960d4827b8b438d263621b6628b4bfe1edeca82b6b4b4b58378b8c106aaecba85439a70ad03763e866a17263dc2602658e11a75865bcfd7d030d67acd487f834",
+                "jwt_key": "2c8e8bd73041b371744b89d8a657a29818f4397510a435bd7779f005c322459dd07f36bbc64f9c9a93edd133f6992b76ea672e73a4c289d55c5dc2ad34784073",
+                "last_used_at": null,
+                "last_used_ip": null
+            },
+            {
+                "id": "5a798224e5324adc94c844e22e71d786",
+                "user_id": "2d78ff08a42e4e188df8aca0b20df3c0",
+                "client_id": "http://192.168.1.35:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-05T08:16:32.465077+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "7a75c112456e8832733b6698dee04d67efc811e365685fe9b68f0cf65fae72eaa34064868ddf6a0c70ac2731b0f16d20b60faa3d2de275f3eeda498230ea97d3",
+                "jwt_key": "6c57f3530f56f6d0135173efb59721b89697caf9b663476c8ed20a40948ec3fb237ee6091b6f2ed0cbafb34f23be4dc825411b68b07f853e40793fa2c4d8da79",
+                "last_used_at": "2021-02-05T08:16:32.465437+00:00",
+                "last_used_ip": "192.168.1.169"
+            },
+            {
+                "id": "80d5f7ccb2744eada6d4eff007dd35e5",
+                "user_id": "2d78ff08a42e4e188df8aca0b20df3c0",
+                "client_id": "https://home-assistant.io/android",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-05T10:00:23.705418+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "686fe081e2f6e81ab635cd5d15147a8c9af29f74d69d938b7d424bedaccb53397b664f67c3e8728cc73c649e77ff6a275266d91078ad94ad006152f1a2e1f425",
+                "jwt_key": "014fada6fc8b55530b462440f51e0c72f955dd5a80cd91f5a04cc36be9135abbb195f918da07a55ed5be8e57efb9b28d87bc43b86f561466853580ef5236a9c6",
+                "last_used_at": "2021-02-06T18:07:37.899027+00:00",
+                "last_used_ip": "192.168.3.12"
+            },
+            {
+                "id": "9181aeb51a0e4d97a779bde9210fe851",
+                "user_id": "2d78ff08a42e4e188df8aca0b20df3c0",
+                "client_id": "https://ha.nas.krottje.eu/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-05T15:47:54.736033+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "4baf7dce8eb5d99fb363a1cf8c06347c8771c68c8aa7d977fb9008b057361390001d7e78978f70139cf10d4d100974950b2d862e304aee6dde41c87b971cc55c",
+                "jwt_key": "fa19d3e7c984b2f2542bc372ed3700a3ba62c8cb70e9e19d65681df6ceb12ea7706aa5118becd1d1bc851be9fffa288b135240cbf0f6ecd18bd6d8bd9d950f44",
+                "last_used_at": "2021-02-05T15:47:54.736415+00:00",
+                "last_used_ip": "127.0.0.1"
+            },
+            {
+                "id": "e0eb5a9e2e8845de9aff945dc50ef783",
+                "user_id": "2d78ff08a42e4e188df8aca0b20df3c0",
+                "client_id": "https://ha.nas.krottje.eu/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2021-02-05T15:48:27.868198+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "1be757723a042712e96d59e873c37fea3348d2275af3870c8f031b9c7bb978e685ebe86166036f7a6f0b388cd43581f5b09d9612ef09229e59db85d84df30609",
+                "jwt_key": "bcef55dda87359c583825f14252acd12c12874e7f2ac237091737cff8573a9f48f0779b79e9db6f6ac995f00b4a6dd82fdd03e2ff368f1e7be34880758cf19ba",
+                "last_used_at": "2021-02-05T15:48:27.868543+00:00",
+                "last_used_ip": "127.0.0.1"
+            }
+        ]
+    }
+}

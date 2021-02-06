@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "key": "auth_provider.homeassistant",
+    "data": {
+        "users": [
+            {
+                "username": "bjarne",
+                "password": "JDJiJDEyJDUyY1J5VUVSUHF3eEQzZ2xBbFpTL3VFQUVuS2lxeE9CN1Q1eHBTSzBJTEhncWI4a2VxdlhT"
+            },
+            {
+                "username": "voordeurscherm",
+                "password": "JDJiJDEyJDZrQklHYTBWYUFlWlg3UXEvbFlwMU9RZ3NCbVM2dUpkNTNaNnhKeFF2OS92OWhvekFjZ3lH"
+            }
+        ]
+    }
+}

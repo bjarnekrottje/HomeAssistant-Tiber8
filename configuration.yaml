@@ -1,0 +1,164 @@
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+# SolarEdge
+solaredge:
+  api_key: !secret solaredge_api_key
+  site_id: !secret solaredge_site_id
+
+# Spotify
+spotify:
+  client_id: !secret spotify_client_id
+  client_secret: !secret spotify_client_secret
+
+# Afvalwijzer
+sensor:
+  # RD4 - Restafval
+  - platform: rest
+    resource: !secret rd4_url
+    name: Restafval
+    scan_interval: !secret rd4_interval
+    value_template: >-
+      {% set datum = (now() + timedelta(days=1)).strftime("%Y-%m-%d") %}
+      {% set foo = namespace(found=False) %}
+      {% for i in range(0,100) %}
+        {% if value_json["REST"][i] == datum %}
+          {% set foo.found = True %}
+        {%- endif %}
+      {%- endfor %}
+      {% if foo.found == true %}
+        Ja
+      {% else %}
+        Nee
+      {% endif %}
+  # RD4 - Kerstboom
+  - platform: rest
+    resource: !secret rd4_url
+    name: Kerstboom
+    scan_interval: !secret rd4_interval
+    value_template: >-
+      {% set datum = (now() + timedelta(days=1)).strftime("%Y-%m-%d") %}
+      {% set foo = namespace(found=False) %}
+      {% for i in range(0,100) %}
+        {% if value_json["KERSTBOOM"][i] == datum %}
+          {% set foo.found = True %}
+        {%- endif %}
+      {%- endfor %}
+      {% if foo.found == true %}
+        Ja
+      {% else %}
+        Nee
+      {% endif %}
+  # RD4 - Overig
+  - platform: rest
+    resource: !secret rd4_url
+    name: Overig
+    scan_interval: !secret rd4_interval
+    value_template: >-
+      {% set datum = (now() + timedelta(days=1)).strftime("%Y-%m-%d") %}
+      {% set foo = namespace(found=False) %}
+      {% for i in range(0,100) %}
+        {% if value_json["OVERIG"][i] == datum %}
+          {% set foo.found = True %}
+        {%- endif %}
+      {%- endfor %}
+      {% if foo.found == true %}
+        Ja
+      {% else %}
+        Nee
+      {% endif %}
+  # RD4 - GFT
+  - platform: rest
+    resource: !secret rd4_url
+    name: GFT
+    scan_interval: !secret rd4_interval
+    value_template: >-
+      {% set datum = (now() + timedelta(days=1)).strftime("%Y-%m-%d") %}
+      {% set foo = namespace(found=False) %}
+      {% for i in range(0,100) %}
+        {% if value_json["GFT"][i] == datum %}
+          {% set foo.found = True %}
+        {%- endif %}
+      {%- endfor %}
+      {% if foo.found == true %}
+        Ja
+      {% else %}
+        Nee
+      {% endif %}
+  # RD4 - PMD
+  - platform: rest
+    resource: !secret rd4_url
+    name: PMD
+    scan_interval: !secret rd4_interval
+    value_template: >-
+      {% set datum = (now() + timedelta(days=1)).strftime("%Y-%m-%d") %}
+      {% set foo = namespace(found=False) %}
+      {% for i in range(0,100) %}
+        {% if value_json["PMD"][i] == datum %}
+          {% set foo.found = True %}
+        {%- endif %}
+      {%- endfor %}
+      {% if foo.found == true %}
+        Ja
+      {% else %}
+        Nee
+      {% endif %}
+  # RD4 - Papier
+  - platform: rest
+    resource: !secret rd4_url
+    name: Papier
+    scan_interval: !secret rd4_interval
+    value_template: >-
+      {% set datum = (now() + timedelta(days=1)).strftime("%Y-%m-%d") %}
+      {% set foo = namespace(found=False) %}
+      {% for i in range(0,100) %}
+        {% if value_json["PAPIER"][i] == datum %}
+          {% set foo.found = True %}
+        {%- endif %}
+      {%- endfor %}
+      {% if foo.found == true %}
+        Ja
+      {% else %}
+        Nee
+      {% endif %}
+        # RD4 - Papier
+  #RD4 - Best
+  - platform: rest
+    resource: !secret rd4_url
+    name: Best
+    scan_interval: !secret rd4_interval
+    value_template: >-
+      {% set datum = (now() + timedelta(days=1)).strftime("%Y-%m-%d") %}
+      {% set foo = namespace(found=False) %}
+      {% for i in range(0,100) %}
+        {% if value_json["BEST"][i] == datum %}
+          {% set foo.found = True %}
+        {%- endif %}
+      {%- endfor %}
+      {% if foo.found == true %}
+        Ja
+      {% else %}
+        Nee
+      {% endif %}
+
+# Afvalwijzer
+# - platform: afvalwijzer
+#   provider: mijnafvalwijzer
+#   postal_code: !secret afvalwijzer_postal_code
+#   street_number: !secret afvalwijzer_street_number
+#   suffix: ""
+#   include_date_today: false
+#   default_label: Geen
+#   id: ""
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+frontend:
+  themes: !include_dir_merge_named themes

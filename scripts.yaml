@@ -1,0 +1,31 @@
+toggle_light_woonkamer:
+  alias: 'Toggle Light: Woonkamer'
+  sequence:
+  - service: light.toggle
+    data:
+      entity_id: light.woonkamer
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 2
+      milliseconds: 0
+  - service: light.toggle
+    data:
+      entity_id: light.woonkamer
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 2
+      milliseconds: 0
+  - service: light.toggle
+    data:
+      entity_id: light.woonkamer
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 2
+      milliseconds: 0
+  - service: light.toggle
+    data:
+      entity_id: light.woonkamer
+  mode: single
