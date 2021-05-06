@@ -1,0 +1,86 @@
+blueprint:
+  name: Visitor Announcement v0.1
+  description: Announce a visitor has pressed the doorbell and show its video
+  domain: automation
+  source_url: https://github.com/bjarnekrottje/HomeAssistant-Tiber8/tree/main/blueprints/automation/Bjarne/visitor_announcement.yaml
+  input:
+    audio_message:
+      name: Audio Message
+      description: The audio message which should be played
+    language:
+      name: Language
+      description: The language in which the audio message should be played
+    media_source_video:
+      name: Media Source (Video)
+      description: The video source which should be displayed
+      selector:
+        target:
+          entity:
+            domain: camera
+    media_player_audio:
+      name: Media Player (Audio)
+      description: The device which plays the audio announcement
+      selector:
+        target:
+          entity:
+            domain: media_player
+    media_player_video:
+      name: Media Player (Video)
+      description: The device which plays the video of the doorbell
+      selector:
+        target:
+          entity:
+            domain: media_player
+    delay_seconds:
+      name: Delay (seconds)
+      description: Delay in seconds until stream is stopped
+      selector:
+        number:
+          min: 0
+          max: 60
+          unit_of_measurement: seconds
+    delay_minutes:
+      name: Delay (minutes)
+      description: Delay in minutes until stream is stopped
+      selector:
+        number:
+          min: 0
+          max: 60
+          unit_of_measurement: minutes
+    trigger_device_id:
+      name: Trigger - Device Id
+    trigger_entity_id:
+      name: Trigger - Entity Id
+
+
+# Test
+trigger:
+  - type: occupied
+    platform: device
+    device_id: !input trigger_device_id
+    entity_id: !input trigger_entity_id
+    domain: binary_sensor
+
+action:
+  - service: media_player.volume_set
+    target:
+      entity_id: !input media_player_audio
+    data:
+      volume_level: 0.7
+  - service: tts.google_translate_say
+    data:
+      entity_id: !input media_player_audio
+      message: !input audio_message
+      language: !input language
+  - service: camera.play_stream
+    target:
+      entity_id: !input media_source_video
+    data:
+      media_player: !input media_player_video
+  - delay:
+      minutes: !input delay_minutes
+      seconds: !input delay_seconds
+  - service: media_player.turn_off
+    target:
+      entity_id: !input media_player_video
+mode: single
